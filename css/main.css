@@ -1,0 +1,62 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  font-family: "Droid Serif", serif;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header,
+footer {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+input[type="checkbox"] + label::before {
+  border-color: #6e8c62;
+}
+
+input[type="radio"] + label::before {
+  border-color: #6e8c62;
+}
+
+button {
+  background-color: #6e8c62;
+  border: 3px solid #6e8c62;
+}
+
+input {
+  border-color: #6e8c62;
+}
+
+select {
+  border-color: #6e8c62;
+}
+
+fieldset {
+  border: 0;
+}
+
+span {
+  color: #70ad55;
+}
+
+hr {
+  border-top: 2px solid rgba(112, 173, 85, .5);
+}
+
+textarea {
+  padding: 2rem;
+  border-color: #6e8c62;
+}
